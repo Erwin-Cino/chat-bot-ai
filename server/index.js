@@ -33,4 +33,5 @@ app.post('/ask-an-ai', async (req, res) => {
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
+  console.log("PROCESS ENV", process.env)
 })
